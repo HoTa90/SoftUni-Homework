@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    padding: 1em;
+}
+
+.site-header, .site-section, .site-footer {
+  padding: 2em 1em ;
+  border: 1px solid black;
+  margin-top: 0.5em
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 0.8em;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+section p {
+    padding-top: 0.8em;
+}
+
+a:hover, a:active {
+    color: #369;
+    text-decoration: underline;
+}
+

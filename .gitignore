@@ -1,0 +1,4 @@
+/out/
+.prettierrc
+.vscode
+tsconfig.json

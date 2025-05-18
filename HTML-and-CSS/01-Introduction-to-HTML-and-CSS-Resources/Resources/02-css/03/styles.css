@@ -1,0 +1,35 @@
+p.highlight {
+    color: blue;
+    font-size: large;
+}
+
+div#special{
+    background-color: orange;
+    padding: 0;
+}
+
+p.class1.class2 {
+    color: blue;
+    font-size: medium;
+}
+
+a[href^="https"]{
+color: orange;
+font-weight: bold;
+}
+
+a{
+    color: blueviolet;
+}
+
+li {
+    font-weight: bold;
+}
+
+li:first-of-type{
+    color: teal;
+}
+
+ul :last-child{
+    color: red;
+}

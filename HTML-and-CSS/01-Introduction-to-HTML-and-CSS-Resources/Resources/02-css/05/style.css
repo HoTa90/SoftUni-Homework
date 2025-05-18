@@ -1,0 +1,20 @@
+section p {
+    color: darkgreen;
+}
+
+ul.special > li {
+    font-weight: bold;
+    list-style-type: none;
+}
+
+article + article {
+    background-color: rgb(233, 100, 135);
+}
+
+h2.site-title ~ p {
+    color: blue;
+}
+
+ul.special > li a{
+    color: red;
+}

@@ -1,12 +1,9 @@
+function convertArr(arg: string[]): [string, number] {
+  const msg = arg.join('');
+  const num = msg.length;
 
-function convertArr(arg: string[]): [string, number]{
-
-    const msg = arg.join('');
-    const num = msg.length;
-
-    return [msg, num]
-   
+  return [msg, num];
 }
 
-console.log(convertArr(['How', 'are', 'you?']))
-console.log(convertArr(['Today', ' is', ' a ', 'nice', ' ', 'day for ', 'TypeScript']))
+console.log(convertArr(['How', 'are', 'you?']));
+console.log(convertArr(['Today', ' is', ' a ', 'nice', ' ', 'day for ', 'TypeScript']));

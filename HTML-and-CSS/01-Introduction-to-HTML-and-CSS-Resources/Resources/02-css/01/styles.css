@@ -1,0 +1,31 @@
+h1 {
+    color: brown;
+}
+
+p {
+    font-size:1.5em;
+}
+
+.highlight {
+    background-color: rgba(85, 112, 157, 0.067);
+}
+
+#main-title {
+    color: gold
+}
+
+#special-paragraph{
+    font-style: oblique;
+}
+
+ul {
+    list-style-type: georgian;
+}
+
+li {
+    color: darkorange;
+}
+
+div {
+    background-color: cadetblue;
+}
